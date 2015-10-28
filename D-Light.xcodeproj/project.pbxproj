@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282F932D1BE1796800D28BAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F932C1BE1796800D28BAD /* main.m */; };
+		282F93301BE1796900D28BAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F932F1BE1796900D28BAD /* AppDelegate.m */; };
+		282F93331BE1796900D28BAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F93321BE1796900D28BAD /* ViewController.m */; };
+		282F93361BE1796900D28BAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282F93341BE1796900D28BAD /* Main.storyboard */; };
+		282F93391BE1796900D28BAD /* D_Light.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 282F93371BE1796900D28BAD /* D_Light.xcdatamodeld */; };
+		282F933B1BE1796900D28BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282F933A1BE1796900D28BAD /* Assets.xcassets */; };
+		282F933E1BE1796900D28BAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282F933C1BE1796900D28BAD /* LaunchScreen.storyboard */; };
+		282F93491BE1796900D28BAD /* D_LightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F93481BE1796900D28BAD /* D_LightTests.m */; };
+		282F93541BE1796900D28BAD /* D_LightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F93531BE1796900D28BAD /* D_LightUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		282F93451BE1796900D28BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 282F93201BE1796800D28BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282F93271BE1796800D28BAD;
+			remoteInfo = "D-Light";
+		};
+		282F93501BE1796900D28BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 282F93201BE1796800D28BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282F93271BE1796800D28BAD;
+			remoteInfo = "D-Light";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		282F93281BE1796800D28BAD /* D-Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "D-Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		282F932C1BE1796800D28BAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		282F932E1BE1796800D28BAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		282F932F1BE1796900D28BAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		282F93311BE1796900D28BAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		282F93321BE1796900D28BAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		282F93351BE1796900D28BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		282F93381BE1796900D28BAD /* D_Light.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = D_Light.xcdatamodel; sourceTree = "<group>"; };
+		282F933A1BE1796900D28BAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		282F933D1BE1796900D28BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		282F933F1BE1796900D28BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282F93441BE1796900D28BAD /* D-LightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "D-LightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		282F93481BE1796900D28BAD /* D_LightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D_LightTests.m; sourceTree = "<group>"; };
+		282F934A1BE1796900D28BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282F934F1BE1796900D28BAD /* D-LightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "D-LightUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		282F93531BE1796900D28BAD /* D_LightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D_LightUITests.m; sourceTree = "<group>"; };
+		282F93551BE1796900D28BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		282F93251BE1796800D28BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282F93411BE1796900D28BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282F934C1BE1796900D28BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282F931F1BE1796800D28BAD = {
+			isa = PBXGroup;
+			children = (
+				282F932A1BE1796800D28BAD /* D-Light */,
+				282F93471BE1796900D28BAD /* D-LightTests */,
+				282F93521BE1796900D28BAD /* D-LightUITests */,
+				282F93291BE1796800D28BAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		282F93291BE1796800D28BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				282F93281BE1796800D28BAD /* D-Light.app */,
+				282F93441BE1796900D28BAD /* D-LightTests.xctest */,
+				282F934F1BE1796900D28BAD /* D-LightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		282F932A1BE1796800D28BAD /* D-Light */ = {
+			isa = PBXGroup;
+			children = (
+				282F932E1BE1796800D28BAD /* AppDelegate.h */,
+				282F932F1BE1796900D28BAD /* AppDelegate.m */,
+				282F93311BE1796900D28BAD /* ViewController.h */,
+				282F93321BE1796900D28BAD /* ViewController.m */,
+				282F93341BE1796900D28BAD /* Main.storyboard */,
+				282F933A1BE1796900D28BAD /* Assets.xcassets */,
+				282F933C1BE1796900D28BAD /* LaunchScreen.storyboard */,
+				282F933F1BE1796900D28BAD /* Info.plist */,
+				282F93371BE1796900D28BAD /* D_Light.xcdatamodeld */,
+				282F932B1BE1796800D28BAD /* Supporting Files */,
+			);
+			path = "D-Light";
+			sourceTree = "<group>";
+		};
+		282F932B1BE1796800D28BAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282F932C1BE1796800D28BAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		282F93471BE1796900D28BAD /* D-LightTests */ = {
+			isa = PBXGroup;
+			children = (
+				282F93481BE1796900D28BAD /* D_LightTests.m */,
+				282F934A1BE1796900D28BAD /* Info.plist */,
+			);
+			path = "D-LightTests";
+			sourceTree = "<group>";
+		};
+		282F93521BE1796900D28BAD /* D-LightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				282F93531BE1796900D28BAD /* D_LightUITests.m */,
+				282F93551BE1796900D28BAD /* Info.plist */,
+			);
+			path = "D-LightUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		282F93271BE1796800D28BAD /* D-Light */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282F93581BE1796900D28BAD /* Build configuration list for PBXNativeTarget "D-Light" */;
+			buildPhases = (
+				282F93241BE1796800D28BAD /* Sources */,
+				282F93251BE1796800D28BAD /* Frameworks */,
+				282F93261BE1796800D28BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "D-Light";
+			productName = "D-Light";
+			productReference = 282F93281BE1796800D28BAD /* D-Light.app */;
+			productType = "com.apple.product-type.application";
+		};
+		282F93431BE1796900D28BAD /* D-LightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282F935B1BE1796900D28BAD /* Build configuration list for PBXNativeTarget "D-LightTests" */;
+			buildPhases = (
+				282F93401BE1796900D28BAD /* Sources */,
+				282F93411BE1796900D28BAD /* Frameworks */,
+				282F93421BE1796900D28BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282F93461BE1796900D28BAD /* PBXTargetDependency */,
+			);
+			name = "D-LightTests";
+			productName = "D-LightTests";
+			productReference = 282F93441BE1796900D28BAD /* D-LightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		282F934E1BE1796900D28BAD /* D-LightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282F935E1BE1796900D28BAD /* Build configuration list for PBXNativeTarget "D-LightUITests" */;
+			buildPhases = (
+				282F934B1BE1796900D28BAD /* Sources */,
+				282F934C1BE1796900D28BAD /* Frameworks */,
+				282F934D1BE1796900D28BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282F93511BE1796900D28BAD /* PBXTargetDependency */,
+			);
+			name = "D-LightUITests";
+			productName = "D-LightUITests";
+			productReference = 282F934F1BE1796900D28BAD /* D-LightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		282F93201BE1796800D28BAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Krystel Chaccour";
+				TargetAttributes = {
+					282F93271BE1796800D28BAD = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					282F93431BE1796900D28BAD = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 282F93271BE1796800D28BAD;
+					};
+					282F934E1BE1796900D28BAD = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 282F93271BE1796800D28BAD;
+					};
+				};
+			};
+			buildConfigurationList = 282F93231BE1796800D28BAD /* Build configuration list for PBXProject "D-Light" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 282F931F1BE1796800D28BAD;
+			productRefGroup = 282F93291BE1796800D28BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				282F93271BE1796800D28BAD /* D-Light */,
+				282F93431BE1796900D28BAD /* D-LightTests */,
+				282F934E1BE1796900D28BAD /* D-LightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		282F93261BE1796800D28BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282F933E1BE1796900D28BAD /* LaunchScreen.storyboard in Resources */,
+				282F933B1BE1796900D28BAD /* Assets.xcassets in Resources */,
+				282F93361BE1796900D28BAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282F93421BE1796900D28BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282F934D1BE1796900D28BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		282F93241BE1796800D28BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282F93331BE1796900D28BAD /* ViewController.m in Sources */,
+				282F93301BE1796900D28BAD /* AppDelegate.m in Sources */,
+				282F932D1BE1796800D28BAD /* main.m in Sources */,
+				282F93391BE1796900D28BAD /* D_Light.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282F93401BE1796900D28BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282F93491BE1796900D28BAD /* D_LightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282F934B1BE1796900D28BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282F93541BE1796900D28BAD /* D_LightUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		282F93461BE1796900D28BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 282F93271BE1796800D28BAD /* D-Light */;
+			targetProxy = 282F93451BE1796900D28BAD /* PBXContainerItemProxy */;
+		};
+		282F93511BE1796900D28BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 282F93271BE1796800D28BAD /* D-Light */;
+			targetProxy = 282F93501BE1796900D28BAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		282F93341BE1796900D28BAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282F93351BE1796900D28BAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		282F933C1BE1796900D28BAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282F933D1BE1796900D28BAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		282F93561BE1796900D28BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		282F93571BE1796900D28BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		282F93591BE1796900D28BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "D-Light/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.D-Light";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		282F935A1BE1796900D28BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "D-Light/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.D-Light";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		282F935C1BE1796900D28BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "D-LightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.D-LightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/D-Light.app/D-Light";
+			};
+			name = Debug;
+		};
+		282F935D1BE1796900D28BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "D-LightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.D-LightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/D-Light.app/D-Light";
+			};
+			name = Release;
+		};
+		282F935F1BE1796900D28BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "D-LightUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.D-LightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "D-Light";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		282F93601BE1796900D28BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "D-LightUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.D-LightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "D-Light";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		282F93231BE1796800D28BAD /* Build configuration list for PBXProject "D-Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282F93561BE1796900D28BAD /* Debug */,
+				282F93571BE1796900D28BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282F93581BE1796900D28BAD /* Build configuration list for PBXNativeTarget "D-Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282F93591BE1796900D28BAD /* Debug */,
+				282F935A1BE1796900D28BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		282F935B1BE1796900D28BAD /* Build configuration list for PBXNativeTarget "D-LightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282F935C1BE1796900D28BAD /* Debug */,
+				282F935D1BE1796900D28BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		282F935E1BE1796900D28BAD /* Build configuration list for PBXNativeTarget "D-LightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282F935F1BE1796900D28BAD /* Debug */,
+				282F93601BE1796900D28BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		282F93371BE1796900D28BAD /* D_Light.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				282F93381BE1796900D28BAD /* D_Light.xcdatamodel */,
+			);
+			currentVersion = 282F93381BE1796900D28BAD /* D_Light.xcdatamodel */;
+			path = D_Light.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 282F93201BE1796800D28BAD /* Project object */;
+}
