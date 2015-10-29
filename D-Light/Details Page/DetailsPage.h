@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface DetailsPage : UIViewController
+@property (nonatomic, retain) NSMutableDictionary *info_dict;
 
 @end
