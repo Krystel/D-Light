@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Canvas" "${PODS_ROOT}/Headers/Public/IQKeyboardManager" "${PODS_ROOT}/Headers/Public/MMPopupView" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/Realm" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/TacoShell"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Realm/core"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Canvas" -isystem "${PODS_ROOT}/Headers/Public/IQKeyboardManager" -isystem "${PODS_ROOT}/Headers/Public/MMPopupView" -isystem "${PODS_ROOT}/Headers/Public/Masonry" -isystem "${PODS_ROOT}/Headers/Public/Realm" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage" -isystem "${PODS_ROOT}/Headers/Public/TacoShell"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Canvas" -l"IQKeyboardManager" -l"MMPopupView" -l"Masonry" -l"Realm" -l"SDWebImage" -l"TacoShell" -l"c++" -l"realm-ios" -framework "Foundation" -framework "ImageIO" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods

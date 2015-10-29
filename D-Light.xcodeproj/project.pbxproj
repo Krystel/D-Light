@@ -8,14 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		282F932D1BE1796800D28BAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F932C1BE1796800D28BAD /* main.m */; };
-		282F93301BE1796900D28BAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F932F1BE1796900D28BAD /* AppDelegate.m */; };
-		282F93331BE1796900D28BAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F93321BE1796900D28BAD /* ViewController.m */; };
 		282F93361BE1796900D28BAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282F93341BE1796900D28BAD /* Main.storyboard */; };
 		282F93391BE1796900D28BAD /* D_Light.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 282F93371BE1796900D28BAD /* D_Light.xcdatamodeld */; };
 		282F933B1BE1796900D28BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282F933A1BE1796900D28BAD /* Assets.xcassets */; };
 		282F933E1BE1796900D28BAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282F933C1BE1796900D28BAD /* LaunchScreen.storyboard */; };
 		282F93491BE1796900D28BAD /* D_LightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F93481BE1796900D28BAD /* D_LightTests.m */; };
 		282F93541BE1796900D28BAD /* D_LightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F93531BE1796900D28BAD /* D_LightUITests.m */; };
+		282F93691BE1804500D28BAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F93631BE1804500D28BAD /* AppDelegate.m */; };
+		282F936B1BE1808F00D28BAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282F936A1BE1808E00D28BAD /* UIKit.framework */; };
+		282F936D1BE1809900D28BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282F936C1BE1809900D28BAD /* Foundation.framework */; };
+		282F937C1BE1814F00D28BAD /* ScrollPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282F93721BE1814F00D28BAD /* ScrollPager.swift */; };
+		282F937D1BE1814F00D28BAD /* DMAlphaTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F93751BE1814F00D28BAD /* DMAlphaTransition.m */; };
+		282F937E1BE1814F00D28BAD /* DMBaseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F93771BE1814F00D28BAD /* DMBaseTransition.m */; };
+		282F937F1BE1814F00D28BAD /* DMScaleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F93791BE1814F00D28BAD /* DMScaleTransition.m */; };
+		282F93801BE1814F00D28BAD /* DMSlideTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F937B1BE1814F00D28BAD /* DMSlideTransition.m */; };
+		282F93851BE1816C00D28BAD /* LoadingPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F93841BE1816C00D28BAD /* LoadingPage.m */; };
+		282F93881BE1817E00D28BAD /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F93871BE1817E00D28BAD /* MainPage.m */; };
+		282F938B1BE1818C00D28BAD /* DetailsPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F938A1BE1818C00D28BAD /* DetailsPage.m */; };
+		282F938E1BE181DB00D28BAD /* DessertCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F938D1BE181DB00D28BAD /* DessertCell.m */; };
+		282F93911BE1824B00D28BAD /* DessertObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F93901BE1824B00D28BAD /* DessertObject.m */; };
+		282F93941BE1827F00D28BAD /* ColorTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F93931BE1827F00D28BAD /* ColorTheme.m */; };
+		282F939E1BE182B700D28BAD /* Gotham-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 282F93961BE182B700D28BAD /* Gotham-Book.ttf */; };
+		282F939F1BE182B700D28BAD /* Gotham-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 282F93971BE182B700D28BAD /* Gotham-Light.ttf */; };
+		282F93A01BE182B700D28BAD /* Gotham-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 282F93981BE182B700D28BAD /* Gotham-Thin.ttf */; };
+		282F93A11BE182B700D28BAD /* Gotham-XLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 282F93991BE182B700D28BAD /* Gotham-XLight.ttf */; };
+		282F93A21BE182B700D28BAD /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 282F939B1BE182B700D28BAD /* Lobster-Regular.ttf */; };
+		282F93A31BE182B700D28BAD /* LobsterTwo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 282F939C1BE182B700D28BAD /* LobsterTwo-Italic.ttf */; };
+		282F93A41BE182B700D28BAD /* LobsterTwo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 282F939D1BE182B700D28BAD /* LobsterTwo-Regular.ttf */; };
+		282F93A71BE182C100D28BAD /* FontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F93A61BE182C100D28BAD /* FontManager.m */; };
+		FD2DA6FFCCCFEC1A826DC335 /* libPods-D-Light.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C37250B9B47D2BD2B8647BE /* libPods-D-Light.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +59,6 @@
 /* Begin PBXFileReference section */
 		282F93281BE1796800D28BAD /* D-Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "D-Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		282F932C1BE1796800D28BAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		282F932E1BE1796800D28BAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		282F932F1BE1796900D28BAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		282F93311BE1796900D28BAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		282F93321BE1796900D28BAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		282F93351BE1796900D28BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		282F93381BE1796900D28BAD /* D_Light.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = D_Light.xcdatamodel; sourceTree = "<group>"; };
 		282F933A1BE1796900D28BAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +70,44 @@
 		282F934F1BE1796900D28BAD /* D-LightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "D-LightUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		282F93531BE1796900D28BAD /* D_LightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D_LightUITests.m; sourceTree = "<group>"; };
 		282F93551BE1796900D28BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282F93621BE1804500D28BAD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		282F93631BE1804500D28BAD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		282F936A1BE1808E00D28BAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		282F936C1BE1809900D28BAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		282F936E1BE180B900D28BAD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		282F93721BE1814F00D28BAD /* ScrollPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollPager.swift; sourceTree = "<group>"; };
+		282F93741BE1814F00D28BAD /* DMAlphaTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAlphaTransition.h; sourceTree = "<group>"; };
+		282F93751BE1814F00D28BAD /* DMAlphaTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAlphaTransition.m; sourceTree = "<group>"; };
+		282F93761BE1814F00D28BAD /* DMBaseTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBaseTransition.h; sourceTree = "<group>"; };
+		282F93771BE1814F00D28BAD /* DMBaseTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBaseTransition.m; sourceTree = "<group>"; };
+		282F93781BE1814F00D28BAD /* DMScaleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMScaleTransition.h; sourceTree = "<group>"; };
+		282F93791BE1814F00D28BAD /* DMScaleTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMScaleTransition.m; sourceTree = "<group>"; };
+		282F937A1BE1814F00D28BAD /* DMSlideTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSlideTransition.h; sourceTree = "<group>"; };
+		282F937B1BE1814F00D28BAD /* DMSlideTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSlideTransition.m; sourceTree = "<group>"; };
+		282F93831BE1816C00D28BAD /* LoadingPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingPage.h; sourceTree = "<group>"; };
+		282F93841BE1816C00D28BAD /* LoadingPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingPage.m; sourceTree = "<group>"; };
+		282F93861BE1817E00D28BAD /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPage.h; sourceTree = "<group>"; };
+		282F93871BE1817E00D28BAD /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPage.m; sourceTree = "<group>"; };
+		282F93891BE1818C00D28BAD /* DetailsPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsPage.h; sourceTree = "<group>"; };
+		282F938A1BE1818C00D28BAD /* DetailsPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsPage.m; sourceTree = "<group>"; };
+		282F938C1BE181DB00D28BAD /* DessertCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DessertCell.h; sourceTree = "<group>"; };
+		282F938D1BE181DB00D28BAD /* DessertCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DessertCell.m; sourceTree = "<group>"; };
+		282F938F1BE1824B00D28BAD /* DessertObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DessertObject.h; sourceTree = "<group>"; };
+		282F93901BE1824B00D28BAD /* DessertObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DessertObject.m; sourceTree = "<group>"; };
+		282F93921BE1827F00D28BAD /* ColorTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTheme.h; sourceTree = "<group>"; };
+		282F93931BE1827F00D28BAD /* ColorTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTheme.m; sourceTree = "<group>"; };
+		282F93961BE182B700D28BAD /* Gotham-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Book.ttf"; sourceTree = "<group>"; };
+		282F93971BE182B700D28BAD /* Gotham-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.ttf"; sourceTree = "<group>"; };
+		282F93981BE182B700D28BAD /* Gotham-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Thin.ttf"; sourceTree = "<group>"; };
+		282F93991BE182B700D28BAD /* Gotham-XLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLight.ttf"; sourceTree = "<group>"; };
+		282F939B1BE182B700D28BAD /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		282F939C1BE182B700D28BAD /* LobsterTwo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LobsterTwo-Italic.ttf"; sourceTree = "<group>"; };
+		282F939D1BE182B700D28BAD /* LobsterTwo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LobsterTwo-Regular.ttf"; sourceTree = "<group>"; };
+		282F93A51BE182C100D28BAD /* FontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontManager.h; sourceTree = "<group>"; };
+		282F93A61BE182C100D28BAD /* FontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontManager.m; sourceTree = "<group>"; };
+		6221275BB1105E305A525BF1 /* Pods-D-Light.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-D-Light.debug.xcconfig"; path = "Pods/Target Support Files/Pods-D-Light/Pods-D-Light.debug.xcconfig"; sourceTree = "<group>"; };
+		6C37250B9B47D2BD2B8647BE /* libPods-D-Light.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-D-Light.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7447E1ED62C640067A1B2F5A /* Pods-D-Light.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-D-Light.release.xcconfig"; path = "Pods/Target Support Files/Pods-D-Light/Pods-D-Light.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +115,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282F936D1BE1809900D28BAD /* Foundation.framework in Frameworks */,
+				282F936B1BE1808F00D28BAD /* UIKit.framework in Frameworks */,
+				FD2DA6FFCCCFEC1A826DC335 /* libPods-D-Light.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +145,8 @@
 				282F93471BE1796900D28BAD /* D-LightTests */,
 				282F93521BE1796900D28BAD /* D-LightUITests */,
 				282F93291BE1796800D28BAD /* Products */,
+				B1643F6C5C5C5959B9347B9E /* Pods */,
+				30A21FD316A1F5A4C56B5F75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +163,12 @@
 		282F932A1BE1796800D28BAD /* D-Light */ = {
 			isa = PBXGroup;
 			children = (
-				282F932E1BE1796800D28BAD /* AppDelegate.h */,
-				282F932F1BE1796900D28BAD /* AppDelegate.m */,
-				282F93311BE1796900D28BAD /* ViewController.h */,
-				282F93321BE1796900D28BAD /* ViewController.m */,
+				282F93611BE1804500D28BAD /* AppDelegate */,
+				282F93641BE1804500D28BAD /* Custom Views */,
+				282F93651BE1804500D28BAD /* Dependencies */,
+				282F93671BE1804500D28BAD /* First Page */,
+				282F93681BE1804500D28BAD /* Main Page */,
+				282F93661BE1804500D28BAD /* Details Page */,
 				282F93341BE1796900D28BAD /* Main.storyboard */,
 				282F933A1BE1796900D28BAD /* Assets.xcassets */,
 				282F933C1BE1796900D28BAD /* LaunchScreen.storyboard */,
@@ -121,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				282F932C1BE1796800D28BAD /* main.m */,
+				282F936E1BE180B900D28BAD /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -143,6 +206,163 @@
 			path = "D-LightUITests";
 			sourceTree = "<group>";
 		};
+		282F93611BE1804500D28BAD /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				282F93621BE1804500D28BAD /* AppDelegate.h */,
+				282F93631BE1804500D28BAD /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		282F93641BE1804500D28BAD /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				282F936F1BE1814F00D28BAD /* Custom Cell */,
+				282F93701BE1814F00D28BAD /* Dessert Object */,
+				282F93711BE1814F00D28BAD /* Scroll Pager */,
+				282F93731BE1814F00D28BAD /* Transitions */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		282F93651BE1804500D28BAD /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				282F93811BE1815500D28BAD /* Color Theme */,
+				282F93821BE1815500D28BAD /* Font Manager */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		282F93661BE1804500D28BAD /* Details Page */ = {
+			isa = PBXGroup;
+			children = (
+				282F93891BE1818C00D28BAD /* DetailsPage.h */,
+				282F938A1BE1818C00D28BAD /* DetailsPage.m */,
+			);
+			path = "Details Page";
+			sourceTree = "<group>";
+		};
+		282F93671BE1804500D28BAD /* First Page */ = {
+			isa = PBXGroup;
+			children = (
+				282F93831BE1816C00D28BAD /* LoadingPage.h */,
+				282F93841BE1816C00D28BAD /* LoadingPage.m */,
+			);
+			path = "First Page";
+			sourceTree = "<group>";
+		};
+		282F93681BE1804500D28BAD /* Main Page */ = {
+			isa = PBXGroup;
+			children = (
+				282F93861BE1817E00D28BAD /* MainPage.h */,
+				282F93871BE1817E00D28BAD /* MainPage.m */,
+			);
+			path = "Main Page";
+			sourceTree = "<group>";
+		};
+		282F936F1BE1814F00D28BAD /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				282F938C1BE181DB00D28BAD /* DessertCell.h */,
+				282F938D1BE181DB00D28BAD /* DessertCell.m */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		282F93701BE1814F00D28BAD /* Dessert Object */ = {
+			isa = PBXGroup;
+			children = (
+				282F938F1BE1824B00D28BAD /* DessertObject.h */,
+				282F93901BE1824B00D28BAD /* DessertObject.m */,
+			);
+			path = "Dessert Object";
+			sourceTree = "<group>";
+		};
+		282F93711BE1814F00D28BAD /* Scroll Pager */ = {
+			isa = PBXGroup;
+			children = (
+				282F93721BE1814F00D28BAD /* ScrollPager.swift */,
+			);
+			path = "Scroll Pager";
+			sourceTree = "<group>";
+		};
+		282F93731BE1814F00D28BAD /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				282F93741BE1814F00D28BAD /* DMAlphaTransition.h */,
+				282F93751BE1814F00D28BAD /* DMAlphaTransition.m */,
+				282F93761BE1814F00D28BAD /* DMBaseTransition.h */,
+				282F93771BE1814F00D28BAD /* DMBaseTransition.m */,
+				282F93781BE1814F00D28BAD /* DMScaleTransition.h */,
+				282F93791BE1814F00D28BAD /* DMScaleTransition.m */,
+				282F937A1BE1814F00D28BAD /* DMSlideTransition.h */,
+				282F937B1BE1814F00D28BAD /* DMSlideTransition.m */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		282F93811BE1815500D28BAD /* Color Theme */ = {
+			isa = PBXGroup;
+			children = (
+				282F93921BE1827F00D28BAD /* ColorTheme.h */,
+				282F93931BE1827F00D28BAD /* ColorTheme.m */,
+			);
+			path = "Color Theme";
+			sourceTree = "<group>";
+		};
+		282F93821BE1815500D28BAD /* Font Manager */ = {
+			isa = PBXGroup;
+			children = (
+				282F93951BE182B700D28BAD /* Gotham Font */,
+				282F939A1BE182B700D28BAD /* Lobster Font */,
+				282F93A51BE182C100D28BAD /* FontManager.h */,
+				282F93A61BE182C100D28BAD /* FontManager.m */,
+			);
+			path = "Font Manager";
+			sourceTree = "<group>";
+		};
+		282F93951BE182B700D28BAD /* Gotham Font */ = {
+			isa = PBXGroup;
+			children = (
+				282F93961BE182B700D28BAD /* Gotham-Book.ttf */,
+				282F93971BE182B700D28BAD /* Gotham-Light.ttf */,
+				282F93981BE182B700D28BAD /* Gotham-Thin.ttf */,
+				282F93991BE182B700D28BAD /* Gotham-XLight.ttf */,
+			);
+			path = "Gotham Font";
+			sourceTree = "<group>";
+		};
+		282F939A1BE182B700D28BAD /* Lobster Font */ = {
+			isa = PBXGroup;
+			children = (
+				282F939B1BE182B700D28BAD /* Lobster-Regular.ttf */,
+				282F939C1BE182B700D28BAD /* LobsterTwo-Italic.ttf */,
+				282F939D1BE182B700D28BAD /* LobsterTwo-Regular.ttf */,
+			);
+			path = "Lobster Font";
+			sourceTree = "<group>";
+		};
+		30A21FD316A1F5A4C56B5F75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				282F936C1BE1809900D28BAD /* Foundation.framework */,
+				282F936A1BE1808E00D28BAD /* UIKit.framework */,
+				6C37250B9B47D2BD2B8647BE /* libPods-D-Light.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1643F6C5C5C5959B9347B9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6221275BB1105E305A525BF1 /* Pods-D-Light.debug.xcconfig */,
+				7447E1ED62C640067A1B2F5A /* Pods-D-Light.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +370,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 282F93581BE1796900D28BAD /* Build configuration list for PBXNativeTarget "D-Light" */;
 			buildPhases = (
+				AB08A09170A77B97D001DE82 /* Check Pods Manifest.lock */,
 				282F93241BE1796800D28BAD /* Sources */,
 				282F93251BE1796800D28BAD /* Frameworks */,
 				282F93261BE1796800D28BAD /* Resources */,
+				2E551A08A37FA80C665B21AD /* Embed Pods Frameworks */,
+				0811667BAE76D155243DB084 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,8 +470,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				282F933E1BE1796900D28BAD /* LaunchScreen.storyboard in Resources */,
+				282F93A21BE182B700D28BAD /* Lobster-Regular.ttf in Resources */,
+				282F93A41BE182B700D28BAD /* LobsterTwo-Regular.ttf in Resources */,
 				282F933B1BE1796900D28BAD /* Assets.xcassets in Resources */,
+				282F93A31BE182B700D28BAD /* LobsterTwo-Italic.ttf in Resources */,
+				282F93A11BE182B700D28BAD /* Gotham-XLight.ttf in Resources */,
 				282F93361BE1796900D28BAD /* Main.storyboard in Resources */,
+				282F93A01BE182B700D28BAD /* Gotham-Thin.ttf in Resources */,
+				282F939E1BE182B700D28BAD /* Gotham-Book.ttf in Resources */,
+				282F939F1BE182B700D28BAD /* Gotham-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +498,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0811667BAE76D155243DB084 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-D-Light/Pods-D-Light-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E551A08A37FA80C665B21AD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-D-Light/Pods-D-Light-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB08A09170A77B97D001DE82 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		282F93241BE1796800D28BAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				282F93331BE1796900D28BAD /* ViewController.m in Sources */,
-				282F93301BE1796900D28BAD /* AppDelegate.m in Sources */,
+				282F937E1BE1814F00D28BAD /* DMBaseTransition.m in Sources */,
 				282F932D1BE1796800D28BAD /* main.m in Sources */,
 				282F93391BE1796900D28BAD /* D_Light.xcdatamodeld in Sources */,
+				282F93801BE1814F00D28BAD /* DMSlideTransition.m in Sources */,
+				282F93851BE1816C00D28BAD /* LoadingPage.m in Sources */,
+				282F93881BE1817E00D28BAD /* MainPage.m in Sources */,
+				282F937C1BE1814F00D28BAD /* ScrollPager.swift in Sources */,
+				282F93911BE1824B00D28BAD /* DessertObject.m in Sources */,
+				282F937D1BE1814F00D28BAD /* DMAlphaTransition.m in Sources */,
+				282F937F1BE1814F00D28BAD /* DMScaleTransition.m in Sources */,
+				282F93691BE1804500D28BAD /* AppDelegate.m in Sources */,
+				282F93A71BE182C100D28BAD /* FontManager.m in Sources */,
+				282F938E1BE181DB00D28BAD /* DessertCell.m in Sources */,
+				282F938B1BE1818C00D28BAD /* DetailsPage.m in Sources */,
+				282F93941BE1827F00D28BAD /* ColorTheme.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +656,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,7 +693,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -413,8 +702,11 @@
 		};
 		282F93591BE1796900D28BAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6221275BB1105E305A525BF1 /* Pods-D-Light.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/D-Light/PrefixHeader.pch";
 				INFOPLIST_FILE = "D-Light/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.D-Light";
@@ -424,8 +716,11 @@
 		};
 		282F935A1BE1796900D28BAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7447E1ED62C640067A1B2F5A /* Pods-D-Light.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/D-Light/PrefixHeader.pch";
 				INFOPLIST_FILE = "D-Light/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.D-Light";
@@ -500,6 +795,7 @@
 				282F935A1BE1796900D28BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		282F935B1BE1796900D28BAD /* Build configuration list for PBXNativeTarget "D-LightTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +804,7 @@
 				282F935D1BE1796900D28BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		282F935E1BE1796900D28BAD /* Build configuration list for PBXNativeTarget "D-LightUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +813,7 @@
 				282F93601BE1796900D28BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
