@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MainPage : UIViewController
-
+@property (nonatomic, retain) NSMutableArray *cake_arr, *cupcake_arr, *pie_arr, *fruit_arr;
+@property (nonatomic, assign) NSInteger result_type;
 @end
