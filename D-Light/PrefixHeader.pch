@@ -6,6 +6,26 @@
 //  Copyright © 2015 Krystel Chaccour. All rights reserved.
 //
 
+#import <Availability.h>
+
+#ifndef DEBUG
+#define NSLog(...) /* suppress //NSLog when in release mode */
+#endif
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+
+#import "FontManager.h"
+#import "ColorTheme.h"
+
+#import <TacoShell/TacoShell.h>
+#import <Canvas/Canvas.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <Realm/Realm.h>
+
+#define Appdelegate ((AppDelegate *)[[UIApplication sharedApplication] delegate])
+
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
