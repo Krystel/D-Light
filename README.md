@@ -14,4 +14,4 @@ Dependencies are managed via [CocoaPods](http://cocoapods.org/) to simplify inst
 3. Open `D-Light.xcworkspace` in Xcode.
 4. Build and run the application on your Simulator to start exploring light desserts!
 
-![Demo](http://postimg.org/image/6185680nt/)
+![Demo](http://i.imgur.com/AQrSv87.gif)
