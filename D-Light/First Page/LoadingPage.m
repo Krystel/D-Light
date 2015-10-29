@@ -174,6 +174,7 @@
 
 /*
  ** Function to parse and save the cakes api
+ ** TacoShell is a NSURLWrapper library, makes the use of GET/POST calls more clean, and direct
  */
 -(void)getCakes
 {
