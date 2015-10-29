@@ -8,6 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
+static NSString *d_purple = @"#740E9A";
+static NSString *d_darkGrey = @"#2E2E2E";
+static NSString *d_lightGrey = @"#DFDFDF";
+
 @interface ColorTheme : NSObject
+
+//  convert hexadecimal colors to UIColor
++(UIColor *)colorFromHexString:(NSString *)hexString;
+
++(UIColor *)d_purple;
++(UIColor *)d_darkGrey;
++(UIColor *)d_lightGrey;
+
 
 @end
