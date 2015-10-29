@@ -10,4 +10,15 @@
 
 @interface FontManager : NSObject
 
+// Gotham
++(UIFont*) bookFontOfSize:(CGFloat)pointSize;
++(UIFont*) lightFontOfSize:(CGFloat)pointSize;
++(UIFont*) thinFontOfSize:(CGFloat)pointSize;
++(UIFont*) extraLightFontOfSize:(CGFloat)pointSize;
+
+//Lobster
++(UIFont *) regularLobster:(CGFloat)pointSize;
++(UIFont *) regularLobsterTwo:(CGFloat)pointSize;
++(UIFont *) italicLobsterTwo:(CGFloat)pointSize;
+
 @end
